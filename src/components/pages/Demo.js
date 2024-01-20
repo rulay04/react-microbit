@@ -35,6 +35,7 @@ export default function Products() {
               <p>
                 Once you can establish a 1RM velocity, you can then start working down. For example, you will know that for a person with a .3m/s velocity during a 1RM, a lift moving at .75 m/s is nowhere near a 9 RPE. Everyone is slightly different, but you could start with a scale like this:
               </p>
+              <br/>
               <ul>
                 <li>10 RPE- .3m/s and down</li>
                 <li>9 RPE- .3 to .5 m/s</li>

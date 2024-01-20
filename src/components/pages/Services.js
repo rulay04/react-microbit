@@ -226,7 +226,7 @@ const Services = () => {
                 <div key={index} className="item">
                   <p>Trial {index + 1}</p>
                   <p>Time: {entry.time / 1000} seconds</p>
-                  <p>Velocity: {Math.abs(entry.velocity / 10000)}</p>
+                  <p>Velocity (m/s): {Math.abs(entry.velocity / 10000)}</p>
                   <p>Power: {distance && !isNaN(parseFloat(entry.time)) ? calculatePower(entry.time / 1000, distance) : 'Invalid input'}</p>
                   <br />
                 </div>
